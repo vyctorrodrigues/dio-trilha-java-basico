@@ -15,12 +15,15 @@ public class ContaTerminal {
         System.out.println("Por favor digite o seu nome: ");
         String nome = scanner.next();
 
+        System.out.println("Digite seu sobrenome: ");
+        String sobrenome = scanner.next();
+
         System.out.println("Por favor digite o seu saldo: ");
         double saldo = scanner.nextDouble();
 
-        System.out.println("Olá " + nome + ", " + "obrigado por criar uma conta em nosso banco!!");
-        System.out.println("Sua Agência: " + agencia);
+        System.out.println("Olá " + nome + " " + sobrenome + ", " + "obrigado por criar uma conta em nosso banco!!");
         System.out.println("Sua Conta: " + conta);
+        System.out.println("Sua Agência: " + agencia);
         System.out.println("Saldo: " + saldo);
         System.out.println("Seu saldo ja esta disponível para saque.");
     }
